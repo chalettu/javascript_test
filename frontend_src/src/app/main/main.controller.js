@@ -9,8 +9,7 @@
   function MainController($scope,$timeout, AppFactory) {
 
     $scope.task={"name":"","description":"","due":""};
-    $scope.task.name="test";
-    AppFactory.create($scope.task);
+
 
     $scope.getTasks=function(){
 

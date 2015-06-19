@@ -86,8 +86,8 @@
         };
         factory.delete=function(task_id){
           var config={
-            method: 'DELETE',
-            url:REST_SERVER+"todos",
+            method: 'POST',
+            url:REST_SERVER+"todos/delete",
             dataType: 'json',
             data: {"id":task_id}
           };

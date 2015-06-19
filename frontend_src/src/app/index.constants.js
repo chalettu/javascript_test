@@ -5,6 +5,6 @@
   angular
     .module('tuple')
     .constant('moment', moment)
-    .constant("REST_SERVER","http://127.0.0.1:8000/");
+    .constant("REST_SERVER","/");
 
 })();
