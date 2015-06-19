@@ -1,0 +1,18 @@
+Edit Page
+
+<div>
+<div style="color:red" ng-show="message.length > 0">{{message}}</div>
+  <md-input-container>
+    <label>Name</label>
+    <input ng-model="task.name">
+  </md-input-container>
+  <md-input-container>
+    <label>Description</label>
+    <input ng-model="task.description">
+  </md-input-container>
+  <md-input-container>
+    <label>Due</label>
+    <input ng-model="task.due">
+  </md-input-container>
+<md-button ng-click="updateTask()">Update</md-button>
+</div>

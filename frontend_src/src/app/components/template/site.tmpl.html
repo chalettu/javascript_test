@@ -1,0 +1,26 @@
+<div layout="column" style="height:500px;">
+  <section layout="row" flex>
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+      <md-toolbar class="md-theme-indigo">
+        <h1 class="md-toolbar-tools">Menu</h1>
+      </md-toolbar>
+      <md-content layout-padding>
+        <md-button ui-sref="app.createTask">
+          Create Task
+        </md-button>
+        <md-button ui-sref="app.listTasks">List Tasks</md-button>
+        <p hide-md show-gt-md>
+
+
+        </p>
+      </md-content>
+    </md-sidenav>
+    <md-content flex layout-padding>
+      <div layout="column" layout-fill layout-align="top center" ui-view="content">
+
+
+      </div>
+    </md-content>
+
+  </section>
+</div>

@@ -1,0 +1,11 @@
+Task List
+
+
+<ul style="list-style-type: none">
+  <li ng-repeat="task in tasks" >
+    <div style="border:1px solid black; width:400px" layout="row">
+      <div style="width:200px;padding:5px">{{task.name}}</div><md-button class="md-raised" ui-sref="app.editTask({ id: task.id})">Edit</md-button><md-button class="md-raised" ng-click="deleteTask(task)">Delete</md-button>
+    </div>
+
+  </li>
+</ul>
