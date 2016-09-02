@@ -14,3 +14,4 @@ If you want to boot a server to see the whole project work I redid the server po
 To boot the server download the code , go into the sails directory and run an npm install. 
 
 After that finishes run a sails lift and it will start a server on port 1337
+Test Update
