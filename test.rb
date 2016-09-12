@@ -1,1 +1,1 @@
-puts "Testing"
+puts 'Testing'
